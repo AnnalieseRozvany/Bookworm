@@ -30,6 +30,7 @@ struct result_t {
 
 Queries:
   - Find a book
+  ``` struct result_t* find_book(struct book_node_t* nodes, size_t count, size_t id, uint16_t tcount); ```
   - Find all books by author
   - Find all books that have been reprinted under another publisher
   - Find all books of k degree of separation of a book
