@@ -5,6 +5,7 @@ The books themselves are represented as an array of book_node_t and contain cate
 The assignment had a leaderboard which timed our assignents, and ranked us against our peers. 
 
 Book Structure:
+'''
 struct book_node_t {
   uint32_t id;
   uint32_t publisher_id;
@@ -16,12 +17,15 @@ struct book_node_t {
   uint32_t* same_author_books;
   uint32_t* cited_by;
 };
+'''
 
 Queries return result in structure:
+'''
 struct result_t {
   struct book_node_t** elements;
   size_t n_elements;
 };
+'''
 
 Queries:
   Find a book
