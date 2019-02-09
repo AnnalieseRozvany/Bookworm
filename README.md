@@ -33,7 +33,22 @@ Queries:
   
   ``` struct result_t* find_book(struct book_node_t* nodes, size_t count, size_t id, uint16_t tcount); ```
   - Find all books by author
+  
+  ```struct result_t* find_all_books_by_author(struct book_node_t* nodes, size_t count, size_t author, uint16_t tcount);```
+
   - Find all books that have been reprinted under another publisher
+  
+  ```struct result_t* find_all_books_reprinted(struct book_node_t* nodes, size_t count, size_t publisher_id, uint16_t tcount);```
+
   - Find all books of k degree of separation of a book
+  
+  ```struct result_t* find_all_books_k_distance_from(struct book_node_t* nodes, size_t count, size_t book_id, uint16_t k, uint16_t tcount);```
+
   - Find the shortest distance between two books
+  
+  ```struct result_t* find_shortest_distance_between_books(struct book_node_t* nodes, size_t count, size_t a_id, size_t b_id, uint16_t tcount);```
+
   - Determine the shortest path between any book between author A and B using only a certain edge type
+  
+  ```struct result_t* find_shortest_edge_type(struct book_node_t* nodes, size_t count, size_t a_id, size_t b_id, uint16_t tcount);```
+
