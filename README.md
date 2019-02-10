@@ -1,4 +1,6 @@
 # Bookworm
+A university C assignment. Passed all test cases and received full marks.
+
 A program that performs queries on a graph of books.
 The books themselves are represented as an array of book_node_t and contain categorised edges linking to other books. 
 The assignment had a leaderboard which timed our assignents, and ranked us against our peers. 
