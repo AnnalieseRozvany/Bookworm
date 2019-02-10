@@ -1,6 +1,4 @@
 # Bookworm
-A University of Sydney COMP2129 C Assignment.
-
 A program that performs queries on a graph of books.
 The books themselves are represented as an array of book_node_t and contain categorised edges linking to other books. 
 The assignment had a leaderboard which timed our assignents, and ranked us against our peers. 
